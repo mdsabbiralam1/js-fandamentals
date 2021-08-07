@@ -23,10 +23,22 @@ if (iphonePrice > budget) {
 
 
 var headPhonePrice = 3500;
-var cashMoney = 3400;
-if delevary(headPhonePrice > cashMoney) {
-    console.log('Product Delevary Successfull');
+var cashMoney = 7800;
+if (headPhonePrice < cashMoney) {
+    console.log('Product Delevary Successfull')
 }
-if delevary(headPhonePrice < cashMoney) {
+if (headPhonePrice > cashMoney) {
     console.log('Product Delevary Faild');
+}
+
+
+
+
+var chikenPrice = 190;
+var myMoney = 190;
+if (chikenPrice <= myMoney) {
+    console.log('Yes! Murgir ran khamo. R haddi Chabamu.')
+}
+else {
+    console.log('alor vorta diye dhal khamo....')
 }
